@@ -6,3 +6,17 @@
     padding: 1vh;
     display: inline;
 }
+.trigger:hover{
+    border-radius: 0%;
+}
+.trigger:focus-visible{
+    border-radius: 0%;
+}
+.trigger:focus{
+    border-radius: 0%;
+}
+
+.content{
+    background-color: #141414;
+    color: white;
+}
