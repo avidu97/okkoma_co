@@ -9,7 +9,8 @@ const Hero = () => {
         <div className={styles.hero_left}>
           <div className={styles.hero_top}>
             <h1 className={styles.hero_heading}>
-              lst's put your business <span>online</span>
+              lets's put your
+              <br /> business <span>online</span>
             </h1>
             <p className={styles.hero_para}>
               We are a digital marketing and design agency based in Sri Lanka.
@@ -18,7 +19,42 @@ const Hero = () => {
             </p>
             <button>GET A QUOTE</button>
             <Link className={styles.project_link} href="/#projects">
-              <a>PROJECTS</a>
+              <a className={styles.p_name}>
+                PROJECTS
+                <svg className={styles.down_arrow}
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="19.243"
+                  height="19.243"
+                  viewBox="0 0 19.243 19.243"
+                >
+                  <g
+                    id="Icon_feather-arrow-down-right"
+                    data-name="Icon feather-arrow-down-right"
+                    transform="translate(-8.379 -8.379)"
+                  >
+                    <path
+                      id="Path_22"
+                      data-name="Path 22"
+                      d="M10.5,10.5l15,15"
+                      fill="none"
+                      stroke="#000"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="3"
+                    />
+                    <path
+                      id="Path_23"
+                      data-name="Path 23"
+                      d="M25.5,10.5v15h-15"
+                      fill="none"
+                      stroke="#000"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="3"
+                    />
+                  </g>
+                </svg>
+              </a>
             </Link>
           </div>
           <div className={styles.hero_bottom}>
