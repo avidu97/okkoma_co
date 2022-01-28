@@ -1,0 +1,47 @@
+.list_container{
+    list-style: none;
+}
+
+.check{
+    padding-right: 0.5vh;
+}
+
+.list_container li{
+    margin: 0.4vh;
+}
+
+.section{
+    background: #141414;
+    color: white;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.package{
+    background: #3a3a3a;
+    padding: 2vh;
+    margin: 2vh;
+}
+
+.wrapper{
+    min-width: 600px;
+}
+
+.container{
+    background: #141414;
+    color: white;
+}
+
+.title{
+    text-decoration: underline;
+}
+
+.arrow{
+    padding-left: 2vh;
+}
+
+.quote_title{
+    text-decoration: underline;
+    font-size: 6vh;
+}

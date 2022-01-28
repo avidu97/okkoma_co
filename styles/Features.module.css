@@ -1,0 +1,21 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.section{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+.box{
+    padding: 2vh;
+    background: #141414;
+    color: white;
+    margin: 1vh;
+}
+
+.title{
+    text-decoration: underline;
+}
