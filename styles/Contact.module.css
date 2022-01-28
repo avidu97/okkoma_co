@@ -1,0 +1,15 @@
+.mail{
+    text-decoration: underline solid 1vh #141414;
+    color: #141414;
+}
+
+.contact_container{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.bottom_sec{
+    display: flex;
+    flex-direction: row;
+}
