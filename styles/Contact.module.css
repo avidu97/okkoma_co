@@ -13,3 +13,14 @@
     display: flex;
     flex-direction: row;
 }
+
+.pn_wrapper {
+    padding: 1vh;
+    margin: 2vh;
+    margin-right: 10vh;
+}
+.adrs {
+    padding: 1vh;
+    margin: 2vh;
+    margin-left: 10vh;
+}
