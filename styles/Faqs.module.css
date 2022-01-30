@@ -1,0 +1,28 @@
+.faq_container{
+    display: grid;
+    justify-items: center;
+    align-content: center;
+
+}
+
+.faq_section{
+    justify-self: center;
+    align-self: center;
+    width: 800px;
+}
+
+.question{
+    background-color: #141414;
+    color: white;
+    padding: 2vh;
+}
+
+.answer{
+    background: #3a3a3a;
+    color: white;
+    padding: 2vh;
+}
+
+.faq_wrapper{
+    margin: 2vh;
+}

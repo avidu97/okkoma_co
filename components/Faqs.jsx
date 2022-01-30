@@ -4,9 +4,9 @@ import React from "react";
 const Faqs = () => {
   return (
     <div>
-      <div>
-        <h2>FAQs</h2>
-        <div className={styles.faq_container}>
+      <h2>FAQs</h2>
+      <div className={styles.faq_container}>
+        <div className={styles.faq_section}>
           <div className={styles.faq_wrapper}>
             <div className={styles.question}>
               What is the difference between web design and development?
@@ -53,7 +53,7 @@ const Faqs = () => {
             </div>
             <div className={styles.answer}>
               Cheapest package starts around 7,500 rupees per month.(This does
-              not include advertising cost provided by the client side.)
+              not include advertising cost provided by the client side.
             </div>
           </div>
           <div className={styles.faq_wrapper}>
