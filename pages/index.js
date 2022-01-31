@@ -16,6 +16,7 @@ export default function Home() {
       <Head>
         <title>Okkoma Co. | Web Design and Digital Marketing agency in Sri Lanka</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <Navbar />
       <Hero />
