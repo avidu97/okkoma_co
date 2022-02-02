@@ -59,6 +59,12 @@
     background-color: lightgray;
 }
 
+.clients_container{
+    background-color: lightgray;
+    display: flex;
+}
+
+
 .hero_bottom{
     position: absolute;
     bottom: 0;
@@ -85,4 +91,10 @@
 
 .clients_title{
     padding: 22px;
+}
+
+.hero_top{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
 }
