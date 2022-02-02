@@ -19,3 +19,15 @@
 .title{
     text-decoration: underline;
 }
+
+.box{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+.desc{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+}
