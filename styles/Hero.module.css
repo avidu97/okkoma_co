@@ -2,10 +2,14 @@
     text-transform: uppercase;
 }
 
+.hero_container{
+    height: 100vh;
+}
+
 .hero_section{
-    min-height: 100vh;
     display: grid;
     grid-template-columns: 5fr 2fr;
+
 }
 
 .hero_section button{
@@ -29,7 +33,9 @@
 }
 
 .hero-left{
-    display: flex;    
+      display: flex;
+      flex-direction: row;
+      align-items: center;
 }
 
 .clients_logo{
@@ -46,9 +52,37 @@
     background-color: #141414;
     color: white;
     padding: 2vh;
+    align-items: stretch;
 }
 
 .clients_logos{
     background-color: lightgray;
 }
 
+.hero_bottom{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.clients_logos{
+    padding: 10px;
+}
+.clients_logos svg{
+    margin: 5px;
+}
+.clients_logos svg{
+    height: 30px;
+}
+
+.p_name{
+    margin-left: 20px;
+}
+
+.btn_wrapper{
+    margin-top: 100px;
+}
+
+.clients_title{
+    padding: 22px;
+}

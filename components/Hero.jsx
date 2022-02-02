@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Hero = () => {
   return (
-    <div>
+    <div className={styles.hero_container}>
       <div className={styles.hero_section}>
         <div className={styles.hero_left}>
           <div className={styles.hero_top}>
@@ -17,45 +17,48 @@ const Hero = () => {
               We have everything for your business to get up and running in
               online world.
             </p>
-            <button>GET A QUOTE</button>
-            <Link className={styles.project_link} href="/#projects">
-              <a className={styles.p_name}>
-                PROJECTS
-                <svg className={styles.down_arrow}
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="19.243"
-                  height="19.243"
-                  viewBox="0 0 19.243 19.243"
-                >
-                  <g
-                    id="Icon_feather-arrow-down-right"
-                    data-name="Icon feather-arrow-down-right"
-                    transform="translate(-8.379 -8.379)"
+            <div className={styles.btn_wrapper}>
+              <button>GET A QUOTE</button>
+              <Link className={styles.project_link} href="/#projects">
+                <a className={styles.p_name}>
+                  PROJECTS
+                  <svg
+                    className={styles.down_arrow}
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="19.243"
+                    height="19.243"
+                    viewBox="0 0 19.243 19.243"
                   >
-                    <path
-                      id="Path_22"
-                      data-name="Path 22"
-                      d="M10.5,10.5l15,15"
-                      fill="none"
-                      stroke="#000"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="3"
-                    />
-                    <path
-                      id="Path_23"
-                      data-name="Path 23"
-                      d="M25.5,10.5v15h-15"
-                      fill="none"
-                      stroke="#000"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="3"
-                    />
-                  </g>
-                </svg>
-              </a>
-            </Link>
+                    <g
+                      id="Icon_feather-arrow-down-right"
+                      data-name="Icon feather-arrow-down-right"
+                      transform="translate(-8.379 -8.379)"
+                    >
+                      <path
+                        id="Path_22"
+                        data-name="Path 22"
+                        d="M10.5,10.5l15,15"
+                        fill="none"
+                        stroke="#000"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="3"
+                      />
+                      <path
+                        id="Path_23"
+                        data-name="Path 23"
+                        d="M25.5,10.5v15h-15"
+                        fill="none"
+                        stroke="#000"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="3"
+                      />
+                    </g>
+                  </svg>
+                </a>
+              </Link>
+            </div>
           </div>
           <div className={styles.hero_bottom}>
             <div className={styles.clients_container}>
