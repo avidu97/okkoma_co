@@ -1,9 +1,6 @@
 import styles from "../styles/Features.module.css";
 import React from "react";
-import Image from "next/image";
-import grow from "../public/images/grow.svg";
-import aio from "../public/images/aio.svg";
-import rates from "../public/images/rates.svg";
+
 
 const Features = () => {
   return (
@@ -11,7 +8,7 @@ const Features = () => {
       <div className={styles.container}>
         <div className={styles.box}>
           <div>
-            <Image src={aio}></Image>
+            
           </div>
           <div className={styles.desc}>
             <h3 className={styles.title}>AIO SOLUTION</h3>
@@ -23,7 +20,7 @@ const Features = () => {
         </div>
         <div className={styles.box}>
           <div>
-          <Image src={grow}></Image>
+          
           </div>
           <div className={styles.desc}>
             <h3 className={styles.title}>LONG TERM GROWTH</h3>
@@ -36,7 +33,7 @@ const Features = () => {
         </div>
         <div className={styles.box}>
           <div>
-            <Image src={rates}></Image>
+            
           </div>
           <div className={styles.desc}>
             <h3 className={styles.title}>FLEXIBLE RATES</h3>
